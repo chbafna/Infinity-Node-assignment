@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Bhaiya Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="main">
+    <section class="card">
+        <div class="node">
+            <h1>INFINITE NODES</h1>
+            <input type="text" id="input" placeholder="Type to make a node">
+            <button id="submit" type="button" onclick="createnode()">Submit</button>
+            <input type="text" id="search" placeholder="Type to search a node">
+            <button id="searching" type="button" onclick="search()">Search</button>
+        </div>
+        <ul id='list' class="nested-node visual">
+            <li id="innerlist0">
+                <h2>1 Node</h2>
+                <p id="description0">Node name</p>
+                <input type="text" id="name0" placeholder="Enter subNode" width='50%'><br>
+                <button id="newnode" type="button" onclick="subNode(0)">New Node</button>
+                <button id="delete" type="button" onclick="deletenode(0)">Delete</button>
+                <ul class="inner" id="innerul0"></ul>
+            </li>
+
+        </div>
+
+    </section>
+
+    <script src="js.js"></script>
+</body>
+</html>

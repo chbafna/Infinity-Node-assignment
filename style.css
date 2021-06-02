@@ -1,0 +1,38 @@
+body{
+    margin: 10px;
+    padding: 5px;
+    background-color: #fffef2;
+}
+
+.main{
+    opacity: 1;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+}
+li{
+    padding: 5px;
+    margin:2px;
+    text-decoration: none;
+    list-style-type: none;
+}
+button{
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.nested-node{
+    padding: 20px;
+    margin-left: 10px;
+    opacity: 1;
+}
+
+.visual{
+    opacity: 0;
+}
